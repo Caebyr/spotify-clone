@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favorite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of Kendrick Lamar</h1>
+            <div class="songs">
+                <div class="songItem">
+                    <img src="Kendrick_Lamar_-_Damn.png" alt="1">
+                    <span class="songName">LOVE.FEAT.ZACARI</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:31 <i id="0" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_Lamar_-_Damn.png" alt="1">
+                    <span class="songName">DNA.</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:05 <i id="1" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_Lamar_-_Damn.png" alt="1">
+                    <span class="songName">HUMBLE.</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">02:57 <i id="2" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_GNX.png" alt="1">
+                    <span class="songName">tv off(feat.lefty gunplay)</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:40 <i id="3" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_GNX.png" alt="1">
+                    <span class="songName">luther(with sza)</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">02:57 <i id="4" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_GNX.png" alt="1">
+                    <span class="songName">heart pt.6</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:52 <i id="5" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_Lamar_-_Mr._Morale_&_the_Big_Steppers.png" alt="1">
+                    <span class="songName">Count me out</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:42 <i id="6" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_Lamar_-_Mr._Morale_&_the_Big_Steppers.png" alt="1">
+                    <span class="songName">Die Hard</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:59 <i id="7" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+
+                <div class="songItem">
+                    <img src="Kendrick_Lamar_-_Not_Like_Us.png" alt="1">
+                    <span class="songName">Not Like Us</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:34 <i id="8" class="fa-solid songItemPlay fa-play"></i></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressbar" min="0" value=0 max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i id ="previous" class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+
+        <div class="songInfo1">
+            <img src="200w.gif" alt="" id="gif">
+        </div>
+
+        <div class="songInfo2">
+            <span id="masterSongName">LOVE.FEAT.ZACARI</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/3c871633e3.js" crossorigin="anonymous"></script>
+</body>
+</html>

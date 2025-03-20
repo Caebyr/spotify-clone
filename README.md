@@ -1,0 +1,1 @@
+This is a front end project trying to mimic the most famous music streaming platform i.e. spotify. It utilizes html,css and javascript and consists of a single page as of now with 9 songs by one of my favorite artists. Hope you like the songs :) 
